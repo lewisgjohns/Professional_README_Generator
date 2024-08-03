@@ -122,7 +122,7 @@ const questions = [
 
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./generateMarkdown'); // Adjust the path as necessary
+const generateMarkdown = require('./utils/generateMarkdown'); // Adjust the path as necessary
 
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
@@ -138,7 +138,7 @@ function init() {
   inquirer.prompt(questions)
     .then((answers) => {
       const markdown = generateMarkdown(answers);
-      writeToFile('README.md', markdown);
+      writeToFile('./utils/README.md', markdown);
     })
     .catch((error) => {
       console.error('Error initializing app:', error);
