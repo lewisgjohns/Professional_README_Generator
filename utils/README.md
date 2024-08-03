@@ -4,7 +4,7 @@
 
 ## Description
 
-New Project
+My Project
 
 ## Table of Contents
 
@@ -17,19 +17,19 @@ New Project
 
 ## Installation
 
-Install etc
+Installation
 
 ## Usage
 
-Instructions here
+Usage
 
 ## Contributing
 
-Here are the guidelines
+Guidelines
 
 ## Tests
 
-Test instructions
+test
 
 ## License
   
