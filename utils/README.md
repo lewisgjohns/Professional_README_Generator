@@ -1,10 +1,10 @@
-# a
+# My Project
 
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
-a
+New Project
 
 ## Table of Contents
 
@@ -17,19 +17,19 @@ a
 
 ## Installation
 
-a
+Install etc
 
 ## Usage
 
-a
+Instructions here
 
 ## Contributing
 
-a
+Here are the guidelines
 
 ## Tests
 
-aa
+Test instructions
 
 ## License
   
@@ -39,5 +39,5 @@ This project is licensed under the MIT license. See the [LICENSE](LICENSE) file 
 
 If you have any questions, please feel free to reach out:
 
-- [GitHub](https://github.com/a)
-- Email: [a](mailto:a)
+- [GitHub](https://github.com/lewisgjohns)
+- Email: [lewisjohns7788@gmail.com](mailto:lewisjohns7788@gmail.com)
