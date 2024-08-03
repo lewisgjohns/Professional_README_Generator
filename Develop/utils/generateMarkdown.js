@@ -186,23 +186,14 @@ function renderLicenseBadge(license) {
 
 // Function to return the license link
 function renderLicenseLink(license) {
-  if (!license) return '';
-  
-  switch (license) {
-    case 'MIT':
-      return '[MIT License](https://opensource.org/licenses/MIT)';
-    case 'Apache 2.0':
-      return '[Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)';
-    case 'GPL 3.0':
-      return '[GPL 3.0 License](https://www.gnu.org/licenses/gpl-3.0)';
-    default:
-      return '';
-  }
+  if (license=='None') return '';
+
+  return "- [License](#license)";
 }
 
 // Function to return the license section of README
 function renderLicenseSection(license) {
-  if (!license) return '';
+  if (license=='None') return '';
   
   return `## License
   
@@ -225,7 +216,7 @@ ${data.description}
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [License](#license)
+${renderLicenseLink(data.license)}
 - [Questions](#questions)
 
 ## Installation
@@ -251,7 +242,7 @@ ${renderLicenseSection(data.license)}
 If you have any questions, please feel free to reach out:
 
 - [GitHub](https://github.com/${data.github})
-- Email: ${data.email}
+- Email: [${data.email}](mailto:${data.email})
 `;
 }
 
